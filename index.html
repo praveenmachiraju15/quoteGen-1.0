@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel = "stylesheet" type = "text/css" href = "design.css"
+</head>
+
+<body>
+
+<script src = "quoteGen.js"></script>
+
+<h1>Quote Generator 1.0</h1>
+
+<p>    This random quote generator can give you a different random quote everytime you click display quote!
+    You can also insert your own quote by entering it into the text box and pressing enter!
+</p>
+
+Type in your quote: <input type = "text" id = "userQuote">
+<button type = "button" onclick = "insert()">Insert</button>
+<br>
+<br>
+<button type="button" id = "displayButton" onclick="document.getElementById('demo').innerHTML = getRandomQuote()">Click me to display a random quote!</button>
+
+<br>
+<br>
+<div>
+    <p id="demo"></p>
+</div>
+
+
+</body>
+</html> 

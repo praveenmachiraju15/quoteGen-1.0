@@ -1,0 +1,25 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 10px;
+}
+
+#userQuote{
+    height: 20px;
+    width: 300px;
+}
+
+div {
+    width: 200px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+}
